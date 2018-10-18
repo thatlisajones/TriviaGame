@@ -1,0 +1,161 @@
+Vine Trivia Questions
+
+----
+
+"Vine was a short-form video hosting service that allowed users to upload short, looping videos. How long could a Vine video be?"
+
+"10 seconds"
+
+"7 seconds"
+
+"6 seconds"
+
+"8 seconds"
+
+answer-page: "Many makers of six-second Vine videos considered the strict time limit to be a creative challenge. Twitter acquired Vine in 2012. The service attracted 200 million users before it was ended it in late 2016."
+
+vine-video: revenge-vine
+
+----
+
+"What is 'the vine that ate the South'?"
+
+"Prickle Brier"
+
+"Patricia"
+
+"Leafy Spurge"
+
+"Kudzu"
+
+answer-page: "Kudzu is a fast-spreading, invasive vine that was introduced from Japan into the United States in 1876. Initially, it was used as a ground-cover plant to control soil erosion."
+
+vine-video: patricia-vine
+
+----
+
+"A portion of which California Interstate Highway is known as 'the Grapevine'?"
+
+"405"
+
+"5"
+
+"101"
+
+"605"
+
+answer-page: "Interstate 5 rises north of Los Angeles in a 40-mile grade over the Tehachapi Mountains and into the San Joaquin Valley. Known as the Grapevine, it is notorious for traffic trouble. In winter, this stretch of highway is often closed, stranding motorists."
+
+vine-video: roadwork-vine
+
+-----
+
+"Singer Marvin Gaye scored a big hit with the song 'I Heard It Through the Grapevine' in 1968. Who recorded and released the song earlier, reaching number two on the Billboard pop chart?"
+
+"Gladys Knight & the Pips"
+
+"Creedence Clearwater Revival"
+
+"The California Raisins"
+
+"Stevie Wonder"
+
+"'I Heard It Through the Grapevine' was written by Norman Whitfield and Barrett Strong for Motown Records in 1966. The first recording to be released was produced by Whitfield for Gladys Knight & the Pips, and became a hit single in September 1967."
+
+vine-video: roses-vine
+
+----
+
+"Vineyard Vines is a clothing company that sells 'preppy,' 'southern-styled' attire. What animal appears on the logo?"
+
+"Sheep"
+
+"Alligator"
+
+"Emu"
+
+"Whale"
+
+"Vineyard Vines was founded by brothers Shep and Ian Murray in 1998 in Martha's Vineyard, Massachusetts. The company's main logo is a pink whale."
+
+vine-video: adam-vine
+
+----
+
+"Which of these regions of France is NOT known for its wine?"
+
+"Bordeaux"
+
+"Normandy"
+
+"Languedoc"
+
+"Loire"
+
+"Normandy is not an official wine region of France. The area is better known for its cider and calvados."
+
+vine-video: matrix-vine
+
+----
+
+"Which dessert wine is produced from grapes that have been frozen while still on the vine?"
+
+"Ice Wine"
+
+"Eiswein"
+
+"Vin de glace"
+
+"All of the above"
+
+"Ice wine is eiswein in Gernman, and vin de glace in French. Because the grapes must be harvested immediately after the first freeze of the season, ice wine production is limited to wine-growing regions where cold temperatures are somewhat predictible. Canada and Germany are the world's largest producers of ice wines."
+
+vine-video: ice-vine
+
+----
+
+"Which of these is an Ivy League school?"
+
+"Claremont College"
+
+"University of Pennsylvania"
+
+"Stanford"
+
+"Colgate University"
+
+"Eight schools make up the Ivy League athletic conference: Brown University, Columbia University, Cornell University, Dartmouth College, Harvard University, Princeton University, University of Pennsylvania, and Yale University."
+
+vine-video: tball-vine
+
+----
+
+"Which edible plant grows on a shrub or bush as well as on a vine?"
+
+"Grape"
+
+"Tomato"
+
+"Cherry"
+
+"Mint"
+
+"Tomato plants usually fall into one of two categories: determinate and indeterminate. Determinate tomatoes grow like a shrub, reaching a certain height, flowering, and bearing fruit. Indeterminate tomatoes grow like vines, continuously producing leaves and fruit until frost."
+
+vine-video: fbi-vine "This one's a climber."
+
+----
+
+Which plant contains a toxic oil called urushiol, which can cause a painful, itchy rash if it comes in contact with your skin?
+
+"Poison Ivy"
+
+"Poison Oak"
+
+"Poison Sumac"
+
+"All of the above"
+
+When poison ivy, oak, and sumac plants are touched, urushiol can be released onto the skin. It is glue-like and sticks to the skin, penetrating within 30 minutes. Unless it is immediately washed off with soap and water, it can bond to the skin and remain there for days or weeks. Breathing or ingesting the toxin is even more dangerous, which is why these plants should not be burned, even if they appear to be dead."
+
+vine-video: cats-vine
