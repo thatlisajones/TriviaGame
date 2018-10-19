@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    //Load questions, answer choices, answer position, and image/video links into arrays of options.
+    //Load questions, answer choices, answer position, and image/video links in arrays of options.
     var options = [
         {
             question: "Vine was a short-form video hosting service that allowed users to upload short, looping videos. Many makers of Vine videos regarded the strict time limit as a creative challenge. How long could a Vine video be?", 
@@ -57,8 +57,23 @@ $(document).ready(function () {
             photo: "assets/images/vine-videos/fbi-vine-sq.mp4"
         }, 
         {
-            question: "Which plant contains a toxic oil called urushiol, which can cause a painful, itchy rash if it comes in contact with your skin? Unless it is immediately washed off with soap and water, it can bond to the skin and remain there for days or weeks. Breathing or ingesting the toxin is even more dangerous, which is why these plants should not be burned, even if they appear to be dead.", 
+            question: "Which plant contains a toxic oil called urushiol, which can cause a painful, itchy rash if it comes in contact with your skin? Unless it is immediately washed off with soap and water, it can bond like glue and remain on skin for days or weeks. Breathing or ingesting the toxin is even more dangerous, which is why these plants should not be burned, even if they appear to be dead.", 
             choice: ["Poison Ivy", "Poison Oak", "Poison Sumac", "All of the above"],
             answer: 3,
             photo: "assets/images/vine-videos/fbi-vine-sq.mp4"
         }];
+
+        //Define variables for game functions 
+    
+    var correctCount = 0;
+    var wrongCount = 0;
+    var unanswerCount = 0;
+    var timer = 20;
+    var intervalId;
+    var userGuess ="";
+    var running = false;
+    var qCount = options.length;
+    var pick;
+    var index;
+    var newArray = [];
+    var holder = [];
