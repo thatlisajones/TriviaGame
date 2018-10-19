@@ -77,3 +77,31 @@ $(document).ready(function () {
     var index;
     var newArray = [];
     var holder = [];
+
+    //Start timer
+    function runTimer(){
+        if (!running) {
+        intervalId = setInterval(decrement, 1000); 
+        running = true;
+        }
+    }
+    
+    //Decrement timer
+    function decrement() {
+        $("#timeleft").html("<h3>Time left: " + timer + "</h3>");
+        timer --;
+    
+    //Stop timer at 0
+        if (timer === 0) {
+            unanswerCount++;
+            stop();
+            $("#answerblock").html("<p>Time's up. Correct answer: " + pick.choice[pick.answer] + "</p>");
+            hidepicture();
+        }	
+    }
+    
+    //Full-stop the timer
+    function stop() {
+        running = false;
+        clearInterval(intervalId);
+    }
