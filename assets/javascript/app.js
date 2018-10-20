@@ -15,13 +15,13 @@ $(document).ready(function () {
             photo: "assets/images/vine-videos/patricia-vine-sq.mp4"
          }, 
          {
-             question: "A portion of which California Interstate Highway is known as 'the Grapevine'? It rises over the Tehachapi Mountains and into the San Joaquin Valley. In winter, this stretch of highway is often closed, stranding motorists.", 
+             question: "A portion of which California Interstate Highway is known as 'the Grapevine'? In winter, this stretch of highway is often closed, stranding motorists.", 
             choice: ["405", "5", "101", "605"],
             answer: 1,
             photo: "assets/images/vine-videos/roadwork-vine-sq.mp4"
         }, 
         {
-            question: "Singer Marvin Gaye scored a big hit with the song 'I Heard It Through the Grapevine' in 1968. Who recorded and released the song one year earlier, reaching number two on the Billboard pop chart?", 
+            question: "Singer Marvin Gaye scored a big hit with the song 'I Heard It Through the Grapevine' in 1968. Who recorded and released the song one year earlier?", 
             choice: ["Gladys Knight & the Pips", "Creedence Clearwater Revival", "The California Raisins", "Stevie Wonder"],
             answer: 0,
             photo: "assets/images/vine-videos/roses-vine-sq.mp4"
@@ -39,7 +39,7 @@ $(document).ready(function () {
             photo: "assets/images/vine-videos/matrix-vine-sq.mp4"
         }, 
         {
-            question: "Which dessert wine is produced from grapes that have been frozen while still on the vine? Because the grapes must be harvested immediately after the first freeze of the season, production is limited to wine-growing regions where cold temperatures are somewhat predictible. Canada and Germany are the world's largest producers.", 
+            question: "Which dessert wine is produced from grapes that have been frozen while still on the vine? Canada and Germany are the world's largest producers.", 
             choice: ["Ice Wine", "Eiswein", "Vin de glace", "All of the above"],
             answer: 3,
             photo: "assets/images/vine-videos/ice-vine-sq.mp4"
@@ -51,13 +51,13 @@ $(document).ready(function () {
             photo: "assets/images/vine-videos/tball-vine-sq.mp4"
         }, 
         {
-            question: "Which edible plant grows on a shrub or bush as well as on a vine? 'Determinate' varieties grow like a shrub, reaching a certain height, flowering, and bearing fruit. 'Indeterminate' varieties grow like vines, continuously producing leaves and fruit until frost.", 
-            choice: ["Grape", "Tomato", "Cherry", "Mint"],
+            question: "Which popular food grows on a shrub or bush as well as on a vine?", 
+            choice: ["Grape", "Tomato", "Cherry", "Cashew"],
             answer: 1,
             photo: "assets/images/vine-videos/fbi-vine-sq.mp4"
         }, 
         {
-            question: "Which plant contains a toxic oil called urushiol, which can cause a painful, itchy rash if it comes in contact with your skin? Unless it is immediately washed off with soap and water, it can bond like glue and remain on skin for days or weeks. Breathing or ingesting the toxin is even more dangerous, which is why these plants should not be burned, even if they appear to be dead.", 
+            question: "Which plant contains a toxic oil called urushiol, which can cause a painful, itchy rash if it comes in contact with your skin?", 
             choice: ["Poison Ivy", "Poison Oak", "Poison Sumac", "All of the above"],
             answer: 3,
             photo: "assets/images/vine-videos/fbi-vine-sq.mp4"
@@ -84,6 +84,7 @@ $(document).ready(function () {
 
     $("#start").on("click", function () {
             $("#start").hide();
+            $("#vinebox").hide();
             displayQuestion();
             runTimer();
             for(var i = 0; i < options.length; i++) {
@@ -125,7 +126,7 @@ $(document).ready(function () {
         index = Math.floor(Math.random()*options.length);
         pick = options[index];
         //Populate questionblock and answerblock with text. Employ choice variables.
-      $("#questionblock").html("<h2>" + pick.question + "</h2>");
+      $("#questionblock").html("<h4>" + pick.question + "</h4>");
       for(var i = 0; i < pick.choice.length; i++) {
           var userChoice = $("<div>");
           userChoice.addClass("answerchoice");
@@ -153,7 +154,7 @@ $(".answerchoice").on("click", function () {
         stop();
         wrongCount++;
         userGuess="";
-        $("#answerblock").html("<p>Nope. The answer is: " + pick.choice[pick.answer] + "</p>");
+        $("#answerblock").html("<p>Nope, the answer is: " + pick.choice[pick.answer] + "</p>");
         hidepicture();
     }
 })
@@ -171,10 +172,10 @@ function hidepicture () {
     //Display final score when complete question array is answered
     if ((wrongCount + correctCount + unanswerCount) === qCount) {
         $("#questionblock").empty();
-        $("#questionblock").html("<h3>Game Over!  Here's how you did: </h3>");
+        $("#questionblock").html("<h3>No more questions. Here's how you fared: </h3>");
         $("#answerblock").append("<h4> Correct: " + correctCount + "</h4>" );
         $("#answerblock").append("<h4> Incorrect: " + wrongCount + "</h4>" );
-        $("#answerblock").append("<h4> Unanswered: " + unanswerCount + "</h4>" );
+        $("#answerblock").append("<h4> Not answered: " + unanswerCount + "</h4>" );
         $("#reset").show();
         correctCount = 0;
         wrongCount = 0;
